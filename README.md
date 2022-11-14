@@ -28,7 +28,7 @@ npm run watch # runs gulp watch task
 
 ```bash
 
-npm run dev-server # run local server on port 5555 
+npm run dev # run local server on port 5555 
 
 ```
 
