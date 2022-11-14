@@ -1,0 +1,28 @@
+{% extends 'base/_base.njk' %}
+
+{% from 'macro/breadcrumb_macro.njk' import breadcrumb %}
+
+{% set crumbs = [
+    { href: '/', caption: 'Main' },
+    { href: 'about.html', caption: 'Main' }
+] %}
+
+{% block title %} Company | Main page {% endblock %}
+
+{% block content %}
+
+{{ breadcrumb(crumbs) }}
+
+<section class="p-4" style="line-height: 1.8rem">
+    <div class="container">
+        <h2 class="mb-4">Main company I don't understant this</h2>
+        What is it why this is happens
+    </div>
+</section>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+{% endblock %}
